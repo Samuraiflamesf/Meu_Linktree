@@ -1,0 +1,49 @@
+:root {
+  --dark: #000211;
+  --white: #ffffff;
+
+  --Color1: #860128;
+  --Color2: #e5e5e5;
+  --Color3: #460029;
+  --Color4: #040026;
+  --Color5: #22013c;
+}
+.container p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: start;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-family: poppinsregular;
+  color: var(--Color5);
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: var(--dark);
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0% {
+    background-color: var(--dark);
+  }
+  49% {
+    background-color: var(--dark);
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: var(--dark);
+  }
+}
