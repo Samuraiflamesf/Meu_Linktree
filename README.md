@@ -1,5 +1,3 @@
-# Linktree_clone
- 
 <div align="center">
   
 # Linktree Clone - <a href="https://bernardonogueira8.netlify.app/">Linktree</a>
