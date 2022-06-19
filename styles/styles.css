@@ -1,7 +1,6 @@
 :root {
   --dark: #000211;
   --white: #ffffff;
-
   --Color1: #860128;
   --Color2: #e5e5e5;
   --Color3: #460029;
@@ -22,21 +21,19 @@ body {
 }
 .profile_info {
   display: inline-flex;
-  width: 630px;
-  height: 215px;
+  width: 70%;
+  height: 220px;
 }
 .profile_foto {
-  width: 35%;
+  width: 40%;
 }
 .profile_foto img {
   border: 5px solid var(--dark);
   border-radius: 50%;
   padding: 2px;
   max-width: 100%;
-
 }
 .profile_social img:hover {
-  
   transform: translateY(-5px);
 }
 .profile_text {
@@ -98,7 +95,7 @@ header {
   margin: 0 auto;
   margin-top: 40px;
 }
-.profile_social{
+.profile_social {
   width: 90%;
 }
 .menu {
@@ -110,49 +107,60 @@ header {
   margin: 0 auto;
   margin-bottom: 70px;
 }
-.menu button{
+.menu button {
   margin-top: 20px;
   align-items: center;
   appearance: none;
   background-color: var(--white);
   border-radius: 4px;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4)  0 2px 4px,var(--Color5) 0 7px 13px -3px,var(--Color2) 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, var(--Color5) 0 7px 13px -3px,
+    var(--Color2) 0 -3px 0 inset;
   box-sizing: border-box;
   color: var(--Color4);
   cursor: pointer;
   display: inline-flex;
-  height: 48px;
   justify-content: center;
   line-height: 1;
   list-style: none;
   overflow: hidden;
+  height: 48px;
   padding-left: 16px;
   padding-right: 16px;
+  font-size: 1.2rem;
   position: relative;
   text-align: left;
   text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
+  transition: box-shadow 0.15s, transform 0.15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-  will-change: box-shadow,transform;
-  font-size: 1.2rem;
+  will-change: box-shadow, transform;
 }
 .menu button:focus {
-  box-shadow: var(--Color2)  0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-shadow: var(--Color2) 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
 }
 .menu button:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--Color2)  0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--Color2) 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 .menu button:active {
   box-shadow: var(--Color2) 0 3px 7px inset;
   transform: translateY(2px);
 }
-.menu a{
+.menu a {
   list-style: none;
   text-decoration: none;
 }
-
+.menu .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.menu .container button {
+  margin: 10px auto;
+}
