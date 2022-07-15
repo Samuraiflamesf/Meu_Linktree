@@ -11,11 +11,9 @@
  - [ ] Criar resposabilidade.
  - [ ] Ainda não sei.
 
-# Desktop
-
-| Mobile | Tablet  |
+| Desktop | Android  |
 | ------------------- | ------------------- |
-|  |  |
+| <img src="https://github.com/Samuraiflamesf/Clone_Linktree/blob/main/components/promisse/desktop.png?raw=true"> | <img src="https://github.com/Samuraiflamesf/Clone_Linktree/blob/main/components/promisse/android.png?raw=true"> |
  
  
 
