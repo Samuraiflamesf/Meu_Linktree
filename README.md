@@ -1,19 +1,52 @@
 <div align="center">
   
-# Linktree Clone - <a href="https://bernardonogueira8.netlify.app/">Linktree</a>
-![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript Badge](https://camo.githubusercontent.com/9d07c04bdd98c662d5df9d4e1cc1de8446ffeaebca330feb161f1fb8e1188204/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d626c61636b)
+# Clone Linktree 🗻 <a href="https://starbucksflamebox.netlify.app/">Link da Aplicação</a>
+
 </div>
 
-## Implementações/Features  
- - [ ] Completar os botões.
- - [ ] Criar resposabilidade.
- - [ ] Ainda não sei.
+![Video-Aplicação](https://github.com/Samuraiflamesf/Clone_Linktree/blob/main/components/promisse/desktop.png?raw=true)
+
+<div align="center">
+  
+[![Tech](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+
+</div>
+
+# 📄 Desafio/Linktree 🗻 ![status-em-andamento](https://user-images.githubusercontent.com/62897976/185768581-1d051a52-2e60-4378-b31d-39028cbfb5c8.svg)
+
+> Resumo do Projeto: Landing Page é uma página que conta com todos os elementos voltados à conversão, do visitante ao Lead ou da oportunidade ao cliente.
+
+## 🎯 Implementações/Features
+
+- [x] Começando
+- [x] Estilos Globais do Projeto
+- [x] Estruturação/Estilização Avançada
+- [ ] Completar os botões.
+- [ ] Criar responsabilidade.
+- [ ] Resolvendo Bugs
+- [ ] Projeto Finalizado
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/62897976?s=400&u=afa8e717adda64a162c125cbbbcdfa187b86348a&v=4" width="160px;" alt="Foto do GitHub"/><br>
+          <sub>
+          <b>
+          Bernardo Nogueira - Samuraiflamesf
+          </b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📕 Links Complementares
 
 | Desktop | Android  |
 | ------------------- | ------------------- |
 | <img src="https://github.com/Samuraiflamesf/Clone_Linktree/blob/main/components/promisse/desktop.png?raw=true"> | <img src="https://github.com/Samuraiflamesf/Clone_Linktree/blob/main/components/promisse/android.png?raw=true"> |
- 
- 
-
