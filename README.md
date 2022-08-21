@@ -14,7 +14,7 @@
 
 # 📄 Desafio/Linktree 🗻 ![status-em-andamento](https://user-images.githubusercontent.com/62897976/185768581-1d051a52-2e60-4378-b31d-39028cbfb5c8.svg)
 
-> Resumo do Projeto: Landing Page é uma página que conta com todos os elementos voltados à conversão, do visitante ao Lead ou da oportunidade ao cliente.
+> Resumo do Projeto: Site simples para agrupar todos os meus perfis nas redes sociais em um só lugar.
 
 ## 🎯 Implementações/Features
 
