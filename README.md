@@ -1,6 +1,6 @@
 <div align="center">
   
-# Clone Linktree 🗻 <a href="https://starbucksflamebox.netlify.app/">Link da Aplicação</a>
+# Clone Linktree 🗻 <a href="https://bernardonogueira8.netlify.app/">Link da Aplicação</a>
 
 </div>
 
