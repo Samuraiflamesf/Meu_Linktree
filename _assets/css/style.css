@@ -29,8 +29,6 @@ footer{
 }
 body{
     height: 100vh;
-    font-family: poppinsregular,poppinsbold;
-    overflow: hidden;
     background: linear-gradient(45deg,#0d1b2a,#ffffff,#3b4049);
     background-size: 150% 200%;
     animation: colors ease-in;
