@@ -9,83 +9,140 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="_assets/css/bootstrap.min.css">
   <!-- Styles Custom -->
-  <link rel="stylesheet" href="_assets/css/fonts.css">
   <link rel="stylesheet" href="_assets/css/style.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/b04ef94895.js" crossorigin="anonymous"></script>
+  <!-- Icone e Nome do site -->
+  <link rel="shortcut icon" href="_assets/icons/FlameBox.ico">
   <!-- Bootstrap -->
   <script type="text/javascript" src="_assets/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="_assets/js/jquery-3.6.0.min.js"></script>
   <!-- Javascript Custom -->
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js" crossorigin="anonymous"></script>
+
   <script type="text/javascript" src="_assets/js/script.js"></script>
-  <!-- Icone e Nome do site -->
-  <link rel="shortcut icon" href="_assets/icons/FlameBox.ico">
-  <title>Bernardo Nogueira</title>
+  <!-- Titulo -->
+  <title>Meu LinkTree</title>
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="row mt-3">
+  <div class="px-5 py-5 my-5 text-center pb-0 pt-2 mt-1">
+    <img class="d-block mx-auto mb-4 rounded-circle img-thumbnail" src="/_components/img/profile.jpeg" alt="img"
+      width="180" id="profile" data-tilt data-tilt-max="10" data-tilt-speed="400">
+    <h2 class="fw-bold " id="divTextjs">
+      <span id="textJs"></span>
+    </h2>
+  </div>
+  <div class="container">
+  <div class="card mb-3 flex-column" style="max-width: 540px;" 
+  data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+ <!--
+    Buttes
+  -->
+    <div class="btn-group" role="group" >
+      <button type="button" class="btn bg-warning">
+        <a href="https://www.instagram.com/bernardo.nogueira8/">
+          <div class="col">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </div>
+          <div class="col">
+            Instagram
+          </div>
+        </a>
+      </button>
+      <button type="button" class="btn bg-light">
+        <a href="https://github.com/Samuraiflamesf/">
+          <div class="col">
+            <i class="fa-brands fa-github fa-2x"></i>
+
+          </div>
+          <div class="col">
+            Github
+          </div>
+        </a>
+      </button>
+      <button type="button" class="btn bg-primary">
+        <a href="https://www.linkedin.com/in/bernardo-nogueira8/">
+
+          <div class="col">
+            <i class="fa-brands fa-linkedin-in fa-2x"></i>
+
+          </div>
+          <div class="col">
+            Linkedin
+          </div>
+        </a>
+      </button>
+    </div>
+  </div>
+  <!--
+    Youtube
+  -->
+  <div class="card mb-3 flex-column " style="max-width: 540px;" 
+  data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+    <a href="https://www.youtube.com/channel/UCqcrZPdAU0NOdqJu4OAyt9A">
+      <div class="row g-0">
+        <div class="col-3 m-auto d-flex justify-content-center">
+          <img src="/_components/img/yt_1200.png" alt="yt" class="img-fluid">
+        </div>
         <div class="col">
-          <img src="_components/img/eu.jpg" alt="Eu" class="img-fluid mx-auto d-block rounded-circle" id="img-portifolio">
+          <div class="card-body">
+            <h5 class="card-title">
+              Youtube
+            </h5>
+            <p class="card-text">
+              Siga-me para projetos de desenvolvimento web mais interessantes.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <!--
+    Lattes
+  -->
+  <div class="card mb-3 flex-column " style="max-width: 540px;" 
+  data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+    <a href="https://lattes.cnpq.br/2821332349062913">
+      <div class="row g-0">
+        <div class="col-3 m-auto d-flex justify-content-center">
+          <img src="/_components/img/unnamed.png" alt="cnpq" class="img-fluid ">
         </div>
         <div class="col">
-          <div class="row">
-            @bernardo.nogueira8
-          </div>
-          <div class="row">
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  
-  <section class="header">
-    <div class="container d-flex justify-content-center align-content-center">
-      <div class="row">
-        <div class="col-sm mb-5" >
-          
-        </div>
-        <div class="col-sm h4 ">
-          <div class="row text-center ">
-            @Bernardo Nogueira
-          </div>
-          <div class="row" id="icon">
-            <div class="mt-3 d-flex justify-content-between flex-row">
-              <a href="https://www.instagram.com/bernardo.nogueira8/" class="btn btn-lg">  
-                <i class="fa-brands fa-instagram "></i>
-              </a>
-              <a href="https://www.linkedin.com/in/bernardo-nogueira8/" class="btn btn-lg">  
-                <i class="fa-brands fa-linkedin "></i>
-              </a>
-              <a href="https://github.com/Samuraiflamesf/" class="btn btn-lg">  
-                <i class="fa-brands fa-github"></i>
-              </a>
-              <a href="https://www.youtube.com/channel/UCqcrZPdAU0NOdqJu4OAyt9A" class="btn btn-lg">  
-                <i class="fa-brands fa-youtube"></i>
-              </a>
-            </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              Currículo Lattes - CNPq
+            </h5>
+            <p class="card-text">
+              Para mais informações académicas.
+            </p>
           </div>
         </div>
       </div>
-
-    </div>
-  </section>
-  <section class="btn-links">
-    <div class="container">
-      <div class="row">
-
-      </div>
-
-    </div>
-  </section>
-
-  <footer class="h5">
-      © Bernardo Nogueira. 2022 All rigths reserved
+    </a>
+  </div>
+  </div>
+  <footer class="py-3 my-4 ">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item m-1">
+        <img 
+        src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="">
+      </li>
+      <li class="nav-item m-1">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="">
+      </li>
+      <li class="nav-item m-1">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="">
+      </li>
+      <li class="nav-item m-1">
+        <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="">
+      </li>
+    </ul>
+    <p class="text-center">Feito com 💗 por Bernardo Nogueira © 2022 Company, Inc</p>
   </footer>
+
+  <script type="text/javascript" src="/_assets/js/vanilla-tilt.js"></script>
 </body>
 
 </html>

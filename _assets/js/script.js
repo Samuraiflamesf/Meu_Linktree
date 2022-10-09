@@ -1,22 +1,29 @@
-let alert=false;
-let pass =true;
-function viewPassWord() {
-    if (pass==true) {
-        pass=false;
-        document.getElementById('vision_on').classList.add('d-none') 
-        document.getElementById('vison_off').classList.remove('d-none')
-        document.getElementById('floatingPassword').type = "text"
-        
-    } else {
-        pass=true;
-        document.getElementById('vison_off').classList.add('d-none') 
-        document.getElementById('vision_on').classList.remove('d-none')
-        document.getElementById('floatingPassword').type = "password"
-    }
-}
-function alert_close() {
-    document.getElementById('btn_alert').classList.add("d-none")
-}
-function alert_btn(){
-    document.getElementById('btn_alert').classList.remove('d-none')
-}
+document.addEventListener("DOMContentLoaded", () => {
+  new TypeIt("#textJs", {
+    strings: "Olá, Me chamo Bernardo <br> e sou ",
+    speed: 100,
+    loop:true
+  })
+  .type('Programador 👨‍💻', {delay:900})
+  .delete(15)
+  .type('Matemático 👨‍🏫', {delay:1000})
+  .delete(14)
+  .type('Gato 😼', {delay:500})
+  .delete(4)
+  .type('strólogo 👨‍🍳', {delay:900})
+  .pause(500)
+  .delete(14)
+  .type('Fotogénico ❤️‍🔥', {delay:900})
+  .pause(500)
+  .delete(10)
+  .type('rafo 📸', {deley: 800})
+  .pause(500)
+  .delete(11)
+  .type('Bonito 🤣', {delay:1000})
+  .delete(8)
+  .type('NERD 👽👾', {delay:1000})
+
+  .pause(5000)
+  .go();
+
+});

@@ -1,20 +1,49 @@
-body {
-  background-color: #f7f7f7;
+:root{
+    --text: black;
 }
-
-#img-portifolio{
-  width: 100%;
-  max-width: 180px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
 }
-#icon{
-  width: 100%;
-  max-width: 180px;
+a {
+  text-decoration: none;
+  color: var(--text);
 }
-
+a:hover {
+  text-decoration: none;
+  color: var(--text);
+}
+.profile {
+  max-width: 100px;
+}
+.card {
+  max-width: 600px;
+  margin: auto;
+  color: var(--text);
+}
 footer{
-  display: flex;
-
-  position: fixed;
-  bottom: 0;
-  left: 0;
+    color: var(--text);
+}
+body{
+    height: 100vh;
+    font-family: poppinsregular,poppinsbold;
+    overflow: hidden;
+    background: linear-gradient(45deg,#0d1b2a,#ffffff,#3b4049);
+    background-size: 150% 200%;
+    animation: colors ease-in;
+    -webkit-animation: colors 15s ease-in infinite;
+}
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
