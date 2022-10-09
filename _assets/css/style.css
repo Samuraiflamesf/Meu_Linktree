@@ -28,20 +28,6 @@ footer{
     color: var(--text);
 }
 body{
-    height: 100vh;
-    background: linear-gradient(45deg,#0d1b2a,#ffffff,#3b4049);
-    background-size: 150% 200%;
-    animation: colors ease-in;
-    -webkit-animation: colors 15s ease-in infinite;
+background: #e3e1d688
 }
-@keyframes colors{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
-}
+    
