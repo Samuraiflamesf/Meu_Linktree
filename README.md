@@ -1,12 +1,11 @@
 <div align="center">
   
-# Nome do Projeto 📁 <a href="#">Link da Aplicação</a>
+# Meu Linktree 📁 <a href="https://bernardonogueira8.netlify.app/">Link da Aplicação</a>
 
 </div>
 
 ![Video-Aplicação](https://user-images.githubusercontent.com/62897976/185768202-9e2fda79-b014-4d99-a10e-1f0852a981a1.gif)
 
-<img src="./src/Assets/gif.gif" alt="Descrição da imagem">
 
 <div align="center">
   
