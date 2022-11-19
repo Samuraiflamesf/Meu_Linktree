@@ -4,9 +4,6 @@
 
 </div>
 
-![Video-Aplicação](https://raw.githubusercontent.com/Samuraiflamesf/Meu_Linktree/main/_assets/img/bernardonogueira8.netlify.app_(iPhone%20XR).png)
-
-
 <div align="center">
   
 [![Tech](https://skillicons.dev/icons?i=html,css,js,bootstrap)](https://skillicons.dev)
