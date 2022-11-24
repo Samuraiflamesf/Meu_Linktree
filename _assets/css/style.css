@@ -5,6 +5,7 @@
   --cor3: #3A9074ff;
   --cor4: #006053ff;
   --cor5: #004243ff;
+  --cor6: #003137ff;
 }
 * {
   margin: 0;
@@ -18,15 +19,18 @@ body {
   height: 100vh;
   background: linear-gradient(
     -45deg,
-    var(--cor1) 0%,
-
+    
+    var(--cor1)0%,
+    
     var(--cor2)25%,
-
+    
     var(--cor3) 50%,
-
+    
     var(--cor4)75%,
+    
+    var(--cor5) 83%,
 
-    var(--cor5) 100%
+    var(--cor6) 100%
   );
   background-size: 400% 400%;
   position: relative;
